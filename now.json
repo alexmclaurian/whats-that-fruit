@@ -1,6 +1,6 @@
 {
    "version": 2,
-   "builder": [
+   "builds": [
       {"src": "fruits-project.py", "use": "@now/python"}
    ]
 }
