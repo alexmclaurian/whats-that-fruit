@@ -1,4 +1,6 @@
 {
-   "version": 1,
-   "type": "docker"
+   "version": 2,
+   "builder": [
+      {"src": "fruits-project.py", "use": "@now/python"}
+   ]
 }
