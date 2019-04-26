@@ -1,3 +1,7 @@
 {
-    "type": "docker"
+   "version": 2
+    "builds": [
+        { "src":"fruits-project.py", "use": "@now/python"},
+        { "src":"clean-1.pth", "use": "@now/static"}
+    ]
 }
